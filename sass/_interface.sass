@@ -1,0 +1,32 @@
+.btn
+    height: 100%
+    width: 64px
+    outline: none
+    border: none
+    cursor: pointer
+    border-radius: 12px
+    padding: 0
+    display: grid
+    place-items: center
+    img
+        object-fit: contain 
+        width: 90%
+    &--primary
+        border: 3px solid darken(#4b9388, 10%)
+        background: var(--primary)
+        box-shadow: inset 0 0 4px #000
+    &--secondary
+        border: 3px solid darken(#4b9388, 10%)
+        background: var(--secondary)
+        box-shadow: inset 0 0 4px #000
+    &--tertiary
+        border: 3px solid darken(#9e4516, 10%)
+        background: var(--tertiary)
+        box-shadow: inset 0 0 4px #000
+div, p
+    &::-webkit-scrollbar 
+        width: 0
+        height: 0
+        display: none
+    scrollbar-width: none
+    -ms-overflow-style: none

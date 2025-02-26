@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <section class="wrapper">
+        <div id="game" class="game">
+            <img src="./img/main-bg.png" alt="bg">
+
+            <div id="game-navigation" class="game__navigation navigation">
+
+                <div id="navigation-slider" class="navigation-slider">
+                    <button id="navigation-slider-prev">
+                        <img src="./img/buttons/prev.png" alt="prev">
+                    </button>
+                    <div class="navigation-slider__overflow">
+                        <div class="navigation-slider__wrapper">
+                        
+                        </div>
+                    </div>
+                    <button id="navigation-slider-next">
+                        <img src="./img/buttons/next.png" alt="next">
+                    </button>
+                </div>
+
+                <button class="btn btn--secondary">
+                    <img src="./img/buttons/chat.png" alt="chat">
+                </button>
+
+                <button id="univer-button" class="btn btn--tertiary navigation__univer">
+                    В универ
+                </button>
+
+                <button class="btn btn--primary">
+                    <img src="./img/buttons/mail.png" alt="mail">
+                </button>
+
+                <button id="statistic-open" class="btn btn--primary">
+                    <img src="./img/buttons/statistic.png" alt="statistic">
+                </button>
+
+            </div>
+
+
+            <div class="statistic" id="statistic">
+                <div class="statistic__content">
+                    <p class="statistic__title">
+                        Рейтинг игроков
+                    </p>
+                    <button id="statistic-close" class="statistic__close">
+                        ✖
+                    </button>
+                    <div class="statistic-list">
+                        <div class="statistic-list__head">
+                            <p>Место</p>
+                            <p></p>
+                            <p>Имя Фамилия</p>
+                            <p>Опыт</p>
+                        </div>
+                        <div class="statistic-list__wrapper">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script  type="module" src="./js/main.js"></script>
+</body>
+</html>
